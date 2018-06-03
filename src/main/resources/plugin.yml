@@ -1,0 +1,8 @@
+name: Friends
+version: 0.0.1
+author: Bart
+main: me.bartvv.friends.Friends
+depends: [PacketListenerAPI]
+commands:
+  friends:
+  

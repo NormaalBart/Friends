@@ -1,0 +1,9 @@
+friends:
+  send: "&aUser request is sended!"
+  received: "&aYou got a request from {PLAYER}"
+  noPlayer: "&7Player not found!"
+  typeName: "&aPlease type your friend's name"
+  accepted: "&aYou accepted {PLAYER}'s friend request"
+  acceptedTarget: "&a{PLAYER} accepted your friend request"
+  declined: "&cSuccesfully declined {PLAYER}"
+  declinedTarget: "&c{PLAYER} denied your friend request"

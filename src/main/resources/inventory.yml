@@ -1,0 +1,78 @@
+friends:
+  title: "&aFriends"
+  addFriend:
+    type: ANVIL
+    amount: 1
+    durability: 0
+    display-name: "&aInvite Friend"
+    lore:
+      - "&7Click here"
+      - "&7to invite a friend"
+  friendRequests:
+    type: PAPER
+    amount: 1
+    durability: 0
+    display-name: "&aFriend requests ({AMOUNT} requests)"
+    lore:
+      - "&7Click here"
+      - "&7to check friend requests"
+  glowToggle:
+    type: REDSTONE_TORCH
+    amount: 1
+    durability: 0
+    display-name: "&aToggle glow"
+    lore:
+      - "&7Glow is currently:"
+      - "{MODE}"
+glow:
+  #This will be replaced with {MODE}
+  enabled: "&aEnabled"
+  disabled: "&cDisabled"
+perFriendGUI:
+  title: "&aFriend's setting"
+  back:
+    type: ARROW
+    amount: 1
+    durability: 0
+    display-name: "&7Go Back"
+    lore: 
+      - "&7Go back"
+      - "&7To the Friend GUI"
+  delete:
+    type: WOOL
+    amount: 1
+    durability: 14
+    display-name: "&cDelete user"
+    lore:
+      - "&7Click here"
+      - "&7To delete this user"
+      - "&7From your friend list"
+  next:
+    type: ARROW
+    amount: 1
+    durability: 0
+    display-name: "&aNext page"
+    lore:
+      - "&7Click here"
+      - "&7to get to the next page"
+  back:
+    type: ARROW
+    amount: 1
+    durability: 0
+    display-name: "&aGo back"
+    lore:
+      - "&7Click here"
+      - "&7to go back"
+requestsGUI:
+  title: "&aFriend requests"
+  lore:
+    - "&aRight click to accept"
+    - "&aLeft click to decline"
+  back:
+    type: ARROW
+    amount: 1
+    durability: 0
+    display-name: "&aGo back"
+    lore:
+      - "&7Click here"
+      - "&7to go back"
